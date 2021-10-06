@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.competition-container {
+  background: linear-gradient(90.57deg, #1e034a 1.73%, #2c075a 101.09%);
+  font-family: "Work Sans", sans-serif;
+}
+
+.header {
+  display: flex;
+}
+
+h1 {
+  position: relative;
+  width: 19.188rem;
+  height: 3.5rem;
+  left: 29.906rem;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin: 2rem 0rem;
+}
+
+.view {
+  position: relative;
+  width: 8rem;
+  height: 3.5rem;
+  left: 52.188rem;
+  line-height: 3.5rem;
+  margin: 2rem 0rem;
+}
+
+.view span {
+  width: 5.75rem;
+  height: 1.75rem;
+  left: 0.625rem;
+  top: 0.625;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  letter-spacing: -0.02em;
+  color: #e5e5e5;
+}
+
+.view img {
+  position: relative;
+  color: #e5e5e5;
+  left: 0.625rem;
+}
+
+.card {
+  display: flex;
+  height: 28.75rem;
+  flex: none;
+  margin: 0rem 1rem;
+}
